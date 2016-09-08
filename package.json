@@ -16,8 +16,6 @@
     "os-browserify": "^0.2.1",
     "path-browserify": "0.0.0",
     "pmfy": "^1.0.3",
-    "react": "15.3.1",
-    "react-native": "^0.32.1",
     "stream-browserify": "^2.0.1",
     "utf8-encoder": "^1.0.0"
   },
