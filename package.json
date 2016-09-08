@@ -1,0 +1,30 @@
+{
+  "name": "rnio",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start"
+  },
+  "main": "rnio.js",
+  "dependencies": {
+    "assert": "^1.4.1",
+    "buffer": "^4.7.1",
+    "co": "^4.6.0",
+    "events": "^1.1.1",
+    "lawg": "^1.0.5",
+    "lodash": "^4.14.1",
+    "os-browserify": "^0.2.1",
+    "path-browserify": "0.0.0",
+    "pmfy": "^1.0.3",
+    "react": "15.3.1",
+    "react-native": "^0.32.1",
+    "stream-browserify": "^2.0.1",
+    "utf8-encoder": "^1.0.0"
+  },
+  "react-native": {
+    "os": "os-browserify",
+    "path": "path-browserify",
+    "stream": "stream-browserify"
+  }
+
+}
