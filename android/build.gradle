@@ -21,6 +21,7 @@ android {
     // needed for https://github.com/square/okio/issues/58
     lintOptions {
         warning 'InvalidPackage'
+        abortOnError false
     }
 }
 

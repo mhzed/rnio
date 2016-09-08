@@ -12,7 +12,7 @@ Use react-native init to create project first
 
 Version is important.
 
-## react-native link ...
+## App calls "react-native link rnio"
 
 For android, it does:
 
@@ -30,3 +30,5 @@ For android, it does:
     project(':<module>').projectDir = new File(rootProject.projectDir, '../node_modules/<module>/android')
 
 3. ./android/app/src/main/com/<appname>/MainApplication.java
+
+    ... file modified ...
