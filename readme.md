@@ -14,7 +14,7 @@ Version is important.
 
 ## App calls "react-native link rnio"
 
-For android, it does:
+For android, these are the updates:
 
 1. ./android/app/build.gradle
 
@@ -31,4 +31,10 @@ For android, it does:
 
 3. ./android/app/src/main/com/<appname>/MainApplication.java
 
-    ... file modified ...
+    
+    --- lines added ---
+    import org.mhzed.MyPackage;
+    new MyPackage(),
+    
+    The package name is defined in <module>/android/AndroidManifest.xml, root tag attribute "package"
+    
