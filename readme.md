@@ -2,6 +2,15 @@
 
 Use react-native init to create project first
 
+## In this module
+
+./android/build.gradle
+
+    dependencies {
+        compile 'com.facebook.react:react-native:0.30.+'
+    }
+
+Version is important.
 
 ## react-native link ...
 
